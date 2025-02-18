@@ -1,0 +1,21 @@
+Explicação da implementação dos relatórios:
+
+Relatório utilizando classificação de dados:
+Exemplo 1: Classifica os funcionários pelo salário em ordem decrescente
+Exemplo 2: Classifica os clientes pelo nome em ordem alfabética
+
+Relatório utilizando uma função numérica simples:
+Exemplo 1: Aumento de 10% no salário dos funcionários
+Exemplo 2: Aplica um desconto de 5% no preço das peças
+
+Relatório utilizando uma função de grupo:
+Exemplo 1: Faz a contagem de funcionários por função
+Exemplo 2: Quantidade total de cada peça em estoque
+
+Relatório utilizando sub consulta:
+Exemplo 1: Funcionários com salário acima da média
+Exemplo 2: Veículos cujo proprietário está registrado como cliente
+
+Relatório utilizando junção de tabelas:
+Exemplo 1: Detalhes do orçamento e diagnóstico associado
+Exemplo 2: Lista de peças em estoque e seus fornecedores
