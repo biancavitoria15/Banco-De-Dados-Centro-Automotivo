@@ -1,8 +1,5 @@
 // Turma - 1TDSPM
 // Bianca Vitoria - RM 556270
-// Guilherme Paes Camargo - RM 555166
-// Icaro AmÈrico - RM 555131
-
 
 DROP TABLE funcionario CASCADE CONSTRAINTS;
 DROP TABLE cargo CASCADE CONSTRAINTS;
@@ -226,16 +223,16 @@ INSERT INTO funcionario VALUES  ('Gabriel Almeida', 9, 3600, 'Mecanico');
 INSERT INTO funcionario VALUES  ('Patricia Rocha', 10, 4200, 'Gerente');
   
     
-INSERT INTO cargo VALUES  ('Mec‚nico', 3000, ('2022-01-01'), 'Vale Transporte', 1);
-INSERT INTO cargo VALUES  ('Gerente', 4500, ('2021-06-15'), 'Plano de Sa˙de', 2);
-INSERT INTO cargo VALUES  ('Mec‚nico', 3200, ('2021-10-20'), 'Vale RefeiÁ„o', 3);
+INSERT INTO cargo VALUES  ('Mec√¢nico', 3000, ('2022-01-01'), 'Vale Transporte', 1);
+INSERT INTO cargo VALUES  ('Gerente', 4500, ('2021-06-15'), 'Plano de Sa√∫de', 2);
+INSERT INTO cargo VALUES  ('Mec√¢nico', 3200, ('2021-10-20'), 'Vale Refei√ß√£o', 3);
 INSERT INTO cargo VALUES  ('Assistente', 2900, ('2022-03-05'), 'Vale Transporte', 4);
-INSERT INTO cargo VALUES  ('Mec‚nico', 2800, ('2021-12-12'), 'Vale RefeiÁ„o', 5);
-INSERT INTO cargo VALUES  ('Supervisora', 5000, ('2020-08-14'), 'Plano de Sa˙de', 6);
-INSERT INTO cargo VALUES  ('Mec‚nico', 3100,('2022-02-25'), 'Vale RefeiÁ„o', 7);
+INSERT INTO cargo VALUES  ('Mec√¢nico', 2800, ('2021-12-12'), 'Vale Refei√ß√£o', 5);
+INSERT INTO cargo VALUES  ('Supervisora', 5000, ('2020-08-14'), 'Plano de Sa√∫de', 6);
+INSERT INTO cargo VALUES  ('Mec√¢nico', 3100,('2022-02-25'), 'Vale Refei√ß√£o', 7);
 INSERT INTO cargo VALUES  ('Atendente', 2700,('2021-11-30'), 'Vale Transporte', 8);
-INSERT INTO cargo VALUES  ('Mec‚nico', 3600,('2020-07-10'), 'Vale Transporte', 9);
-INSERT INTO cargo VALUES  ('Gerente', 4200,('2021-09-18'), 'Plano de Sa˙de', 10);
+INSERT INTO cargo VALUES  ('Mec√¢nico', 3600,('2020-07-10'), 'Vale Transporte', 9);
+INSERT INTO cargo VALUES  ('Gerente', 4200,('2021-09-18'), 'Plano de Sa√∫de', 10);
 
          
 INSERT INTO oficina VALUES ('Rua das Flores, 123', '11987654321', '12345678000123', 'Oficina Central', 1);
@@ -245,16 +242,16 @@ INSERT INTO oficina VALUES ('Avenida Paulista, 1000', '11966667777', '2233445500
 INSERT INTO oficina VALUES ('Rua das Palmeiras, 222', '11977778888', '33445566000122', 'Oficina Leste', 5);
 INSERT INTO oficina VALUES ('Rua dos Pinheiros, 333', '11988889999', '44556677000133', 'Oficina Oeste', 6);
 INSERT INTO oficina VALUES ('Avenida Ibirapuera, 999', '11999990000', '55667788000144', 'Oficina Ibirapuera', 7);
-INSERT INTO oficina VALUES ('Rua do ComÈrcio, 777', '11911112222', '66778899000155', 'Oficina Centro', 8);
+INSERT INTO oficina VALUES ('Rua do Com√©rcio, 777', '11911112222', '66778899000155', 'Oficina Centro', 8);
 INSERT INTO oficina VALUES ('Avenida Santos, 444', '11922223333', '77889900000166', 'Oficina Santos', 9);
 INSERT INTO oficina VALUES ('Rua do Porto, 555', '11933334444', '88990011000177', 'Oficina Porto', 10);       
 
 
-INSERT INTO cliente VALUES ('joao.almeida@example.com', '12345678901', '11987654321', 'Jo„o Almeida');
+INSERT INTO cliente VALUES ('joao.almeida@example.com', '12345678901', '11987654321', 'Jo√£o Almeida');
 INSERT INTO cliente VALUES ('maria.oliveira@example.com', '10987654321', '11912345678', 'Maria Oliveira');
 INSERT INTO cliente VALUES ('pedro.santos@example.com', '98765432109', '11933334444', 'Pedro Santos');
 INSERT INTO cliente VALUES ('carla.melo@example.com', '87654321098', '11944445555', 'Carla Melo');
-INSERT INTO cliente VALUES ('andre.souza@example.com', '76543210987', '11955556666', 'AndrÈ Souza');
+INSERT INTO cliente VALUES ('andre.souza@example.com', '76543210987', '11955556666', 'Andr√© Souza');
 INSERT INTO cliente VALUES ('fernanda.lima@example.com', '65432109876', '11966667777', 'Fernanda Lima');
 INSERT INTO cliente VALUES ('luiz.silva@example.com', '54321098765', '11977778888', 'Luiz Silva');
 INSERT INTO cliente VALUES ('paula.martins@example.com', '43210987654', '11988889999', 'Paula Martins');
@@ -274,43 +271,43 @@ INSERT INTO veiculo VALUES ('Sandero', 'Renault', 2020, 'BCD1234', '32109876543'
 INSERT INTO veiculo VALUES ('Spin', 'Chevrolet', 2021, 'EFG5678', '21098765432');
 
 
-INSERT INTO diagnostico VALUES (1, 'CorreÁ„o realizada', 'Troca de Ûleo', 250);
-INSERT INTO diagnostico VALUES (2, 'CorreÁ„o pendente', 'Troca de pastilhas de freio', 400);
-INSERT INTO diagnostico VALUES (3, 'CorreÁ„o realizada', 'Alinhamento', 300);
-INSERT INTO diagnostico VALUES (4, 'CorreÁ„o pendente', 'Troca de amortecedores', 1200);
-INSERT INTO diagnostico VALUES (5, 'CorreÁ„o realizada', 'Revis„o geral', 800);
-INSERT INTO diagnostico VALUES (6, 'CorreÁ„o pendente', 'SubstituiÁ„o de bateria', 450);
-INSERT INTO diagnostico VALUES (7, 'CorreÁ„o realizada', 'Troca de correia dentada', 600);
-INSERT INTO diagnostico VALUES (8, 'CorreÁ„o pendente', 'Troca de velas', 200);
-INSERT INTO diagnostico VALUES (9, 'CorreÁ„o realizada', 'Troca de filtro de ar', 150);
-INSERT INTO diagnostico VALUES (10, 'CorreÁ„o pendente', 'Troca de escapamento', 700);
+INSERT INTO diagnostico VALUES (1, 'Corre√ß√£o realizada', 'Troca de √≥leo', 250);
+INSERT INTO diagnostico VALUES (2, 'Corre√ß√£o pendente', 'Troca de pastilhas de freio', 400);
+INSERT INTO diagnostico VALUES (3, 'Corre√ß√£o realizada', 'Alinhamento', 300);
+INSERT INTO diagnostico VALUES (4, 'Corre√ß√£o pendente', 'Troca de amortecedores', 1200);
+INSERT INTO diagnostico VALUES (5, 'Corre√ß√£o realizada', 'Revis√£o geral', 800);
+INSERT INTO diagnostico VALUES (6, 'Corre√ß√£o pendente', 'Substitui√ß√£o de bateria', 450);
+INSERT INTO diagnostico VALUES (7, 'Corre√ß√£o realizada', 'Troca de correia dentada', 600);
+INSERT INTO diagnostico VALUES (8, 'Corre√ß√£o pendente', 'Troca de velas', 200);
+INSERT INTO diagnostico VALUES (9, 'Corre√ß√£o realizada', 'Troca de filtro de ar', 150);
+INSERT INTO diagnostico VALUES (10, 'Corre√ß√£o pendente', 'Troca de escapamento', 700);
 
 
-INSERT INTO orcamento VALUES (250, 'Troca de Ûleo e filtro',('2023-01-15'), 1, 1);
+INSERT INTO orcamento VALUES (250, 'Troca de √≥leo e filtro',('2023-01-15'), 1, 1);
 INSERT INTO orcamento VALUES (400, 'Troca de pastilhas de freio',('2023-02-20'), 2, 2);
 INSERT INTO orcamento VALUES (300, 'Alinhamento completo',('2023-03-10'), 3, 3);
 INSERT INTO orcamento VALUES (1200, 'Troca de amortecedores',('2023-04-05'), 4, 4);
-INSERT INTO orcamento VALUES (800, 'Revis„o geral',('2023-05-12'), 5, 5);
-INSERT INTO orcamento VALUES (450, 'SubstituiÁ„o de bateria',('2023-06-18'), 6, 6);
+INSERT INTO orcamento VALUES (800, 'Revis√£o geral',('2023-05-12'), 5, 5);
+INSERT INTO orcamento VALUES (450, 'Substitui√ß√£o de bateria',('2023-06-18'), 6, 6);
 INSERT INTO orcamento VALUES (600, 'Troca de correia dentada',('2023-07-22'), 7, 7);
 INSERT INTO orcamento VALUES (200, 'Troca de velas',('2023-08-11'), 8, 8);
 INSERT INTO orcamento VALUES (150, 'Troca de filtro de ar',('2023-09-14'), 9, 9);
 INSERT INTO orcamento VALUES (700, 'Troca de escapamento',('2023-10-09'), 10, 10);
 
 
-INSERT INTO peca VALUES (1, 100, 50, 'Filtro de Ûleo');
+INSERT INTO peca VALUES (1, 100, 50, 'Filtro de √≥leo');
 INSERT INTO peca VALUES (2, 150, 30, 'Pastilhas de freio');
 INSERT INTO peca VALUES (3, 80, 40, 'Amortecedores');
 INSERT INTO peca VALUES (4, 60, 60, 'Correia dentada');
 INSERT INTO peca VALUES (5, 50, 70, 'Filtro de ar');
 INSERT INTO peca VALUES (6, 200, 20, 'Bateria');
 INSERT INTO peca VALUES (7, 300, 15, 'Escapamento');
-INSERT INTO peca VALUES (8, 120, 35, 'Velas de igniÁ„o');
-INSERT INTO peca VALUES (9, 110, 25, 'Filtro de combustÌvel');
+INSERT INTO peca VALUES (8, 120, 35, 'Velas de igni√ß√£o');
+INSERT INTO peca VALUES (9, 110, 25, 'Filtro de combust√≠vel');
 INSERT INTO peca VALUES (10, 90, 45, 'Parafuso de roda');
        
 
-INSERT INTO fornecedor VALUES (1, 'Rua das PeÁas, 123', '11987654321', '12345678000123');
+INSERT INTO fornecedor VALUES (1, 'Rua das Pe√ßas, 123', '11987654321', '12345678000123');
 INSERT INTO fornecedor VALUES (2, 'Avenida dos Freios, 456', '11976543210', '98765432000198');
 INSERT INTO fornecedor VALUES (3, 'Estrada dos Amortecedores, 789', '11876543219', '11223344000100');
 INSERT INTO fornecedor VALUES (4, 'Alameda das Correias, 101', '11765432198', '22334455000111');
@@ -319,30 +316,30 @@ INSERT INTO fornecedor VALUES (6, 'Rodovia das Baterias, 303', '11543219876', '4
 INSERT INTO fornecedor VALUES (7, 'Rua dos Escapamentos, 404', '11432198765', '55667788000144');
 INSERT INTO fornecedor VALUES (8, 'Avenida das Velas, 505', '11321987654', '66778899000155');
 INSERT INTO fornecedor VALUES (9, 'Estrada dos Filtros, 606', '11219876543', '77889900000166');
-INSERT INTO fornecedor VALUES (10, 'Alameda das PeÁas, 707', '11198765432', '88990011000177');
+INSERT INTO fornecedor VALUES (10, 'Alameda das Pe√ßas, 707', '11198765432', '88990011000177');
 
 
-INSERT INTO estoque_peca VALUES (1, ('2023-01-01'),('2023-01-10'), 'Auto PeÁas Ltda', 1, 1);
+INSERT INTO estoque_peca VALUES (1, ('2023-01-01'),('2023-01-10'), 'Auto Pe√ßas Ltda', 1, 1);
 INSERT INTO estoque_peca VALUES (2, ('2023-02-01'),('2023-02-10'), 'Freios Brasil', 2, 2);
 INSERT INTO estoque_peca VALUES (3, ('2023-03-01'),('2023-03-10'), 'Amortecedores SA', 3, 3);
 INSERT INTO estoque_peca VALUES (4, ('2023-04-01'),('2023-04-10'), 'Correias Import', 4, 4);
 INSERT INTO estoque_peca VALUES (5, ('2023-05-01'),('2023-05-10'), 'Filtros LTDA', 5, 5);
 INSERT INTO estoque_peca VALUES (6, ('2023-06-01'),('2023-06-10'), 'Baterias Ltda', 6, 6);
 INSERT INTO estoque_peca VALUES (7, ('2023-07-01'),('2023-07-10'), 'Auto Escapamentos', 7, 7);
-INSERT INTO estoque_peca VALUES (8, ('2023-08-01'),('2023-08-10'), 'PeÁas de Velas SA', 8, 8);
+INSERT INTO estoque_peca VALUES (8, ('2023-08-01'),('2023-08-10'), 'Pe√ßas de Velas SA', 8, 8);
 INSERT INTO estoque_peca VALUES (9, ('2023-09-01'),('2023-09-10'), 'Filtros Auto', 9, 9);
-INSERT INTO estoque_peca VALUES (10,('2023-10-01'),('2023-10-10'), 'Morais PeÁa', 10, 10);
+INSERT INTO estoque_peca VALUES (10,('2023-10-01'),('2023-10-10'), 'Morais Pe√ßa', 10, 10);
      
    
-INSERT INTO pgto VALUES (1, 'Cart„o de CrÈdito', '¿ vista', 5.5);
-INSERT INTO pgto VALUES (2, 'Boleto', '¿ vista', 0.0);
-INSERT INTO pgto VALUES (3, 'Cart„o de DÈbito', '¿ vista', 0.0);
-INSERT INTO pgto VALUES (4, 'TransferÍncia', '¿ vista', 0.0);
-INSERT INTO pgto VALUES (5, 'Pix', '¿ vista', 0.0);
-INSERT INTO pgto VALUES (6, 'Cart„o de CrÈdito', 'Parcelado', 10.0);
+INSERT INTO pgto VALUES (1, 'Cart√£o de Cr√©dito', '√Ä vista', 5.5);
+INSERT INTO pgto VALUES (2, 'Boleto', '√Ä vista', 0.0);
+INSERT INTO pgto VALUES (3, 'Cart√£o de D√©bito', '√Ä vista', 0.0);
+INSERT INTO pgto VALUES (4, 'Transfer√™ncia', '√Ä vista', 0.0);
+INSERT INTO pgto VALUES (5, 'Pix', '√Ä vista', 0.0);
+INSERT INTO pgto VALUES (6, 'Cart√£o de Cr√©dito', 'Parcelado', 10.0);
 INSERT INTO pgto VALUES (7, 'Boleto', 'Parcelado', 0.0);
-INSERT INTO pgto VALUES (8, 'Cart„o de DÈbito', '¿ vista', 0.0);
-INSERT INTO pgto VALUES (9, 'TransferÍncia', 'Parcelado', 0.0);
+INSERT INTO pgto VALUES (8, 'Cart√£o de D√©bito', '√Ä vista', 0.0);
+INSERT INTO pgto VALUES (9, 'Transfer√™ncia', 'Parcelado', 0.0);
 INSERT INTO pgto VALUES (10, 'Pix', 'Parcelado', 0.0);       
        
 
@@ -368,15 +365,15 @@ INSERT INTO pgto_orcamento VALUES (9, 10);
 INSERT INTO pgto_orcamento VALUES (10, 1);       
 
 
-INSERT INTO servico_online VALUES ('DiagnÛstico Autom·tico de Problemas', 1, 'Web', 'Site', '12345678000123', '12345678901', 1, 1);
-INSERT INTO servico_online VALUES ('Cadastro de VeÌculos para DiagnÛstico', 2, 'Web', 'Telefone', '32659874521546', '10987654321', 2, 2);
-INSERT INTO servico_online VALUES ('RelatÛrio de DiagnÛstico Completo', 3, 'Mobile', 'Site', '11223344000100', '98765432109', 3, 3);
-INSERT INTO servico_online VALUES ('Consulta de PeÁas DisponÌveis', 4, 'Web', 'Site', '22334455000111', '87654321098', 4, 4);
+INSERT INTO servico_online VALUES ('Diagn√≥stico Autom√°tico de Problemas', 1, 'Web', 'Site', '12345678000123', '12345678901', 1, 1);
+INSERT INTO servico_online VALUES ('Cadastro de Ve√≠culos para Diagn√≥stico', 2, 'Web', 'Telefone', '32659874521546', '10987654321', 2, 2);
+INSERT INTO servico_online VALUES ('Relat√≥rio de Diagn√≥stico Completo', 3, 'Mobile', 'Site', '11223344000100', '98765432109', 3, 3);
+INSERT INTO servico_online VALUES ('Consulta de Pe√ßas Dispon√≠veis', 4, 'Web', 'Site', '22334455000111', '87654321098', 4, 4);
 INSERT INTO servico_online VALUES ('Agendamento de Reparo', 5, 'Mobile', 'Telefone', '33445566000122', '76543210987', 5, 5);
-INSERT INTO servico_online VALUES ('HistÛrico de ManutenÁ„o do VeÌculo', 6, 'Web', 'Site', '44556677000133', '65432109876', 6, 6);
-INSERT INTO servico_online VALUES ('SolicitaÁ„o de OrÁamento Online', 7, 'Mobile', 'Site', '55667788000144', '54321098765', 7, 7);
-INSERT INTO servico_online VALUES ('NotificaÁıes de DiagnÛstico', 8, 'Web', 'Telefone', '66778899000155', '43210987654', 8, 8);
-INSERT INTO servico_online VALUES ('AvaliaÁ„o PrÈvia de PeÁas', 9, 'Web', 'Site', '77889900000166', '32109876543', 9, 9);
+INSERT INTO servico_online VALUES ('Hist√≥rico de Manuten√ß√£o do Ve√≠culo', 6, 'Web', 'Site', '44556677000133', '65432109876', 6, 6);
+INSERT INTO servico_online VALUES ('Solicita√ß√£o de Or√ßamento Online', 7, 'Mobile', 'Site', '55667788000144', '54321098765', 7, 7);
+INSERT INTO servico_online VALUES ('Notifica√ß√µes de Diagn√≥stico', 8, 'Web', 'Telefone', '66778899000155', '43210987654', 8, 8);
+INSERT INTO servico_online VALUES ('Avalia√ß√£o Pr√©via de Pe√ßas', 9, 'Web', 'Site', '77889900000166', '32109876543', 9, 9);
 INSERT INTO servico_online VALUES ('Encaminhamento para Oficina', 10, 'Mobile', 'Telefone', '88990011000177', '21098765432', 10, 10);
 
 
